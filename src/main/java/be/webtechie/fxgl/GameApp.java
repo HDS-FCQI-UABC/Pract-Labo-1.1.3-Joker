@@ -151,4 +151,5 @@ public class GameApp extends GameApplication {
             spawn("cloud", getAppWidth() / 2, getAppHeight() / 2);
         }
     }
+    //que bonita vecindad
 }
