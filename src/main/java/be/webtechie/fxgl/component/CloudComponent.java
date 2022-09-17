@@ -16,6 +16,7 @@ public class CloudComponent extends Component {
         checkForBounds();
     }
 
+    //checa que siga dentro de los limites de la pantalla
     private void checkForBounds() {
         if (entity.getX() < 0) {
             remove();
