@@ -24,11 +24,13 @@ public class GameFactory implements EntityFactory {
 
     /**
      * Types of objects we are going to use in our game.
+     * Enumera los datos a utilizar para llamar con mayor facilidad
      */
     public enum EntityType {
         BACKGROUND, CENTER, DUKE, CLOUD, BULLET
     }
 
+  //
     @Spawns("background")
     public Entity spawnBackground(SpawnData data) {
         return entityBuilder(data)
